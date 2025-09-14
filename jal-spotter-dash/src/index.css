@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 210 100% 98%;
+    --foreground: 210 20% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 20% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 20% 15%;
+
+    --primary: 200 85% 45%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 210 15% 96%;
+    --secondary-foreground: 210 20% 25%;
+
+    --muted: 210 15% 96%;
+    --muted-foreground: 210 10% 50%;
+
+    --accent: 197 85% 55%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 85% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 15% 88%;
+    --input: 210 15% 92%;
+    --ring: 200 85% 45%;
+
+    --radius: 0.5rem;
+
+    /* Health Dashboard Specific Colors */
+    --alert-high: 0 85% 55%;
+    --alert-medium: 35 85% 55%;
+    --alert-low: 55 85% 65%;
+    --health-primary: 200 85% 45%;
+    --health-secondary: 197 85% 55%;
+    --success: 145 85% 45%;
+    
+    /* Map Colors */
+    --map-low: 120 85% 85%;
+    --map-medium: 55 85% 75%;
+    --map-high: 15 85% 65%;
+    --map-critical: 0 85% 55%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 210 25% 8%;
+    --foreground: 210 15% 95%;
+
+    --card: 210 25% 10%;
+    --card-foreground: 210 15% 95%;
+
+    --popover: 210 25% 10%;
+    --popover-foreground: 210 15% 95%;
+
+    --primary: 200 85% 55%;
+    --primary-foreground: 210 25% 8%;
+
+    --secondary: 210 20% 15%;
+    --secondary-foreground: 210 15% 95%;
+
+    --muted: 210 20% 15%;
+    --muted-foreground: 210 10% 65%;
+
+    --accent: 197 85% 65%;
+    --accent-foreground: 210 25% 8%;
+
+    --destructive: 0 85% 65%;
+    --destructive-foreground: 210 25% 8%;
+
+    --border: 210 20% 20%;
+    --input: 210 20% 15%;
+    --ring: 200 85% 55%;
+
+    /* Health Dashboard Dark Colors */
+    --alert-high: 0 85% 65%;
+    --alert-medium: 35 85% 65%;
+    --alert-low: 55 85% 75%;
+    --health-primary: 200 85% 55%;
+    --health-secondary: 197 85% 65%;
+    --success: 145 85% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
