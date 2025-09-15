@@ -6,7 +6,9 @@ TELEGRAM_BOT_TOKEN = "8283985515:AAFEsXWeBiK9eNjCTDdsQhzv5VkH3GhrKlk"
 # To get chat IDs: send a message to your bot, then call https://api.telegram.org/bot<TOKEN>/getUpdates
 TELEGRAM_CHAT_IDS = [
     "1129126139",
-    "1456097608"
+    "1456097608",
+    "1005429230",
+    "1963064299"
 ]
 
 # Alert templates for different scenarios
