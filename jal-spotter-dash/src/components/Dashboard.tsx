@@ -69,7 +69,7 @@ export function Dashboard({ onLogout }: DashboardProps) {
         {/* Footer */}
         <footer className="text-center text-sm text-muted-foreground py-4 border-t">
           <p>Jalrakshak - Water-Borne Disease Early Warning System</p>
-          <p>© 2024 District Health Department, Government of Assam</p>
+          <p>© 2025 Health Department, Government of India</p>
         </footer>
       </main>
     </div>

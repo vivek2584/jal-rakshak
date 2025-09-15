@@ -179,7 +179,7 @@ export function InteractiveMap({ reports, waterSources, onClusterClick }: Intera
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <MapPin className="w-5 h-5" />
-            Disease Outbreak Map - Dibrugarh District
+            Disease Outbreak Map
           </CardTitle>
         </CardHeader>
         <CardContent>
